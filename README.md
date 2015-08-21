@@ -24,3 +24,10 @@ After you run the Indexer, you're all done on the server end.
 
 
 # Updater.exe
+Once you run the Indexer, you can run the Updater. On your first run, however, it'll tell you to modify a file it created called Host.txt found in the same location as the Updater.exe. It's a simple text file that should contain the location of the folder containing all your patch folders, as well as your FileList.dat and FolderList.dat. Remember that this is all over a file host, so you need to make sure you don't put in a local path from your hard drive. Make sure it follows the format of IP:PORT/subfolder/
+
+
+For example, if I wanted to connect to the file server that was being hosted locally, it would look like this.
+<i>http://localhost:80/updates/</i>
+
+Once you change it, save it and run the updater again. Your files should begin to download.
