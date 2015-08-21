@@ -1,5 +1,8 @@
 # File-Updater
-A collection of tools designed to be used for keep software up to date.
+A collection of tools designed to be used for keep your product's files and folders up to date.
+
+If you don't have any means of compiling the source code, you can download the binaries here.
+https://www.mediafire.com/?l8ag2qdhmwx08em
 
 # Indexer.exe
 To utilize this system, you need to have a working file server. Designate one folder in your file server for containing the first version, and updates for your software. Place the Indexer.exe inside this folder. For this runthrough, I will use C:/WebHost/Updates/ as this folder. Now create a folder with a low revision number as the name like "0.0". Place all the folders and files for your first revision in that folder. For every update that you provide for your software, create a new folder with a higher revision number. Place all the files you changed since the last update in this new folder structured in the same way. Then run Indexer.exe.
