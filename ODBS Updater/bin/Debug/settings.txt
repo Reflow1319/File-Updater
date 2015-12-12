@@ -1,0 +1,12 @@
+--0 name of client exe --
+DBO.exee
+--2 Message if game client exe cant be found --
+Try to Update or redownload the game installer
+--4 Changelog link example http://change.com --
+http://domain.com/change.html
+--6 name of the application --
+GAME UPDATER
+--8 online link to php file --
+http://domain.com/stat.php
+--10 website link for button ==
+http://google.com

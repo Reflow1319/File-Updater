@@ -1,0 +1,11 @@
+C:\Users\reflow\Documents\Projects\ODBS Updater\bin\Debug\ODBS Updater.exe.config
+C:\Users\reflow\Documents\Projects\ODBS Updater\bin\Debug\ODBS Updater.exe
+C:\Users\reflow\Documents\Projects\ODBS Updater\bin\Debug\ODBS Updater.pdb
+C:\Users\reflow\Documents\Projects\ODBS Updater\obj\Debug\ODBS Updater.csprojResolveAssemblyReference.cache
+C:\Users\reflow\Documents\Projects\ODBS Updater\obj\Debug\ODBS_Updater.Form1.resources
+C:\Users\reflow\Documents\Projects\ODBS Updater\obj\Debug\ODBS_Updater.Properties.Resources.resources
+C:\Users\reflow\Documents\Projects\ODBS Updater\obj\Debug\ODBS Updater.csproj.GenerateResource.Cache
+C:\Users\reflow\Documents\Projects\ODBS Updater\obj\Debug\ODBS Updater.exe
+C:\Users\reflow\Documents\Projects\ODBS Updater\obj\Debug\ODBS Updater.pdb
+C:\Users\reflow\Documents\Projects\ODBS Updater\bin\Debug\MySql.Data.dll
+C:\Users\reflow\Documents\Projects\ODBS Updater\bin\Debug\MySql.Web.dll
