@@ -27,7 +27,7 @@ Now There is are a few txt files that will need to be edited
 Host.txt = This is where you put the link to your webhost directory with your updates
 Revision.txt = This file just keep track of client version, for release this file should have a 0 
 Settings 
-Code:
+
 --0 name of your game exe file --
 client.exe
 --2 Message if game client exe cant be found --
