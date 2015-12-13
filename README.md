@@ -1,9 +1,3 @@
-# File-Updater
-A collection of tools designed to be used for keep your product's files and folders up to date.
-
-If you don't have any means of compiling the source code, you can download the binaries here.
-https://www.mediafire.com/?l8ag2qdhmwx08em
-
 # Indexer.exe
 To utilize this system, you need to have a working file server. Designate one folder in your file server for containing the first version, and updates for your software. Place the Indexer.exe inside this folder. For this runthrough, I will use C:/WebHost/Updates/ as this folder. Now create a folder with a low revision number as the name like "0.0". Place all the folders and files for your first revision in that folder. For every update that you provide for your software, create a new folder with a higher revision number. Place all the files you changed since the last update in this new folder structured in the same way. Then run Indexer.exe.
 
@@ -27,10 +21,20 @@ After you run the Indexer, you're all done on the server end.
 
 
 # Updater.exe
-Once you run the Indexer, you can run the Updater. On your first run, however, it'll tell you to modify a file it created called Host.txt found in the same location as the Updater.exe. It's a simple text file that should contain the location of the folder containing all your patch folders, as well as your FileList.dat and FolderList.dat. Remember that this is all over a file host, so you need to make sure you don't put in a local path from your hard drive. Make sure it follows the format of IP:PORT/subfolder/
+First you must upload all the files form the indexer to your webhost
 
-
-For example, if I wanted to connect to the file server that was being hosted locally, it would look like this.
-<i>http://localhost:80/updates/</i>
-
-Once you change it, save it and run the updater again. Your files should begin to download.
+Now There is are a few txt files that will need to be edited 
+Host.txt = This is where you put the link to your webhost directory with your updates
+Revision.txt = This file just keep track of client version, for release this file should have a 0 
+Settings 
+Code:
+--0 name of your game exe file --
+client.exe
+--2 Message if game client exe cant be found --
+Try to Update or redownload the game installer
+--4 Changelog link --
+http://webhost.com/index.html
+--6 name of the application --
+GAME UPDATER
+--8 online link to php file --
+http://webhost.com/status.php
