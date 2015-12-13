@@ -28,13 +28,5 @@ Host.txt = This is where you put the link to your webhost directory with your up
 Revision.txt = This file just keep track of client version, for release this file should have a 0 
 Settings 
 
-0 name of your game exe file 
-client.exe
-2 Message if game client exe cant be found
-Try to Update or redownload the game installer
-4 Changelog link 
-http://webhost.com/index.html
-6 name of the application
-GAME UPDATER
-8 online link to php file
-http://webhost.com/status.php
+<img src="http://xeron.co/settings.png"/>
+
